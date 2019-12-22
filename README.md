@@ -4,12 +4,14 @@ Teste com framework Quasar para app da Nilrow
 
 ## Install the dependencies
 ```bash
+npm i -g @quasar/cli
 npm install
 ```
 
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev
+npx quasar dev (caso não tenha o quasar/cli instalado)
 ```
 
 ### Lint the files
